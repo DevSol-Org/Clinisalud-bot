@@ -23,7 +23,7 @@ const generateJsonParse = (info: string) => {
         "interest": "n/a",
         "value": "0",
         "email": "email@gmail.com",
-        "tel": "3216371125",
+        "tel": "3216371215",
         "startDate": "2024/02/15 00:00:00"
     }
     
@@ -45,7 +45,7 @@ const flowConfirm = addKeyword(EVENTS.ACTION).addAction(async (_, { flowDynamic 
     const documentType = ctx.body.trim().toUpperCase(); // Convertimos a mayúsculas y eliminamos espacios en blanco
     if (!['CC', 'TI', 'CE', 'PAS'].includes(documentType)) {
         await flowDynamic('Por favor selecciona un tipo de documento válido: CC, TI, CE, PAS');
-        return; // Salimos de la acción para que el usuario vuelva a intentarlo
+        return; // Salimos de la acción para que el usuario vuelva a intentar
     }
     await state.update({ documentType });
     await flowDynamic(`¿Cuál es tu número de documento?`)
