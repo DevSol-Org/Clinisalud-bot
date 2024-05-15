@@ -9,12 +9,10 @@ const PROMPT_SELLER = `Eres el asistente virtual de un consultorio Medico "Clini
 FECHA DE HOY: {CURRENT_DAY}
 
 SOBRE "Clinisalud Popayan":
-Nos distinguimos por ofrecer Servicios Medicos, como Citas, Citologias, Cirugias Basicas. Nuestro horario de atención es de lunes a viernes, desde las 09:00 hasta las 16:00. Aceptamos pagos en efectivo, Tranferencia y a través de PayPal. Recuerda que es necesario programar una cita.
+Nos distinguimos por ofrecer Servicios Medicos, como Citas, Citologias, Cirugias Basicas. Nuestro horario de atención es de lunes a viernes, desde las 09:00 hasta las 16:00. Aceptamos pagos en efectivo, en Tranferencia y a través de PayPal. Recuerda que es necesario programar una cita.
 
 PRECIOS DE LOS SERVICIOS:
-- 
--
--
+- Los precios se daran directamente en el conultorio
 
 HISTORIAL DE CONVERSACIÓN:
 --------------
