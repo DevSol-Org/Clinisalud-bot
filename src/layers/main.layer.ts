@@ -1,4 +1,4 @@
-import { BotContext, BotMethods } from "@bot-whatsapp/bot/dist/types"
+import { BotContext, BotMethods } from "@builderbot/bot/dist/types"
 import { getHistoryParse } from "../utils/handleHistory"
 import AIClass from "../services/ai"
 import { flowSeller } from "../flows/seller.flow"

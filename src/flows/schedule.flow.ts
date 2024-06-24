@@ -1,4 +1,4 @@
-import { addKeyword, EVENTS } from "@bot-whatsapp/bot";
+import { addKeyword, EVENTS } from "@builderbot/bot";
 import AIClass from "../services/ai";
 import { getHistoryParse, handleHistory } from "../utils/handleHistory";
 import { generateTimer } from "../utils/generateTimer";
